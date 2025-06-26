@@ -451,7 +451,7 @@ def main(session, my_stage, host, port, trace_id):
 $$
 
 
-
+--Update the job to the current status
 CREATE OR REPLACE PROCEDURE job_exception_handler(
 trace_id VARCHAR,
 status STRING,
