@@ -1,6 +1,7 @@
 # Snowflake-to-sftp-server
 
 HOW TO SEND CSV FILES FROM SNOWFLAKE’S TABLE TO A SFTP SERVER
+
 Snowflake is a cloud-based data warehousing platform known for its scalability and flexibility. It separates storage and compute resources, enabling independent scaling and cost optimization. With a focus on ease of use, it facilitates secure data sharing and collaboration between organizations.
 
 STEP 1 – CREATE WAREHOUSE
