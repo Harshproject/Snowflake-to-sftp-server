@@ -88,6 +88,7 @@ CREATE OR REPLACE TABLE dataJobDetail (
     message varchar(255)
 );
 
+INSERT INTO dataJobDetail SELECT CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP(), 0, 'SUCCESS','Eligible_User', ARRAY_CONSTRUCT('ResyData_Eligible_User_2025-06-17T06-35-08_0_0_0.csv'), CURRENT_TIMESTAMP(), 10, 'Job completed succesfully';
 
 
 --Data migration
